@@ -1,0 +1,53 @@
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-inline: -16px;
+}
+.projects .projectsArticle {
+  border-radius: 8px;
+  border: 1px solid #f2f2f2;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  height: 100%;
+}
+.projects .projectsArticle header {
+  flex-direction: column;
+  flex: 1;
+}
+.projects .projectsArticle .projectsName {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.projects .projectsArticle .projectsName span {
+  color: rgb(0, 188, 47);
+}
+.projects .projectsArticle .projectsName a {
+  color: #111;
+}
+.projects .projectsArticle .projectsName a:hover {
+  text-decoration: underline;
+}
+.projects .projectsArticle .projectsP {
+  font-size: 0.75rem;
+  line-height: 1.2rem;
+  margin-bottom: 4px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  font-size: 0.6rem;
+}
+footer span {
+  border-radius: 6px;
+  background: #eee;
+  color: #444;
+  font-size: 0.6rem;
+  font-weight: 500;
+  padding: 0.2rem 0.6rem;
+}/*# sourceMappingURL=projects.css.map */

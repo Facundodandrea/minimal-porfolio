@@ -1,0 +1,15 @@
+.skills {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.skillsTag {
+  border-radius: 6px;
+  background: #eee;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.2rem 0.6rem;
+}/*# sourceMappingURL=skills.css.map */
